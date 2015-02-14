@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20D8E5F9-ABC9-AAD7-9976-B0158DC18558" name="SIM_manager">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:27:46 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D0E29C00-51BE-5293-54C3-F946578A82AC</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="8074E155-ACDB-FA00-A186-FA81C01B77A4">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:28:10 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="323DEE52-80B1-C4E9-7BA5-922CB3AA36B7">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:28:17 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="C993D226-EE11-59A4-DF09-8874842AD7CD">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:32:04 UTC</createdTime>
+<generatorID>67834C0C-9C28-F65B-B752-7A4B6D18E796</generatorID>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F506BE57-8187-143B-34BF-45B6E7CD047D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

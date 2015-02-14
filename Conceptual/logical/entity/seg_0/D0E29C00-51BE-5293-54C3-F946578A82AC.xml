@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0E29C00-51BE-5293-54C3-F946578A82AC" name="SIM_emp">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:25:04 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>FC5633AA-8F75-8644-32D6-A10529FB9F61</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="emp_id" id="8870902B-46D2-8B95-5394-FBEBE35867C5">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:25:16 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="A030E046-37C8-4BD8-EB84-53B4A350C584">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:25:39 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="2700CFAE-2700-AB9E-1AEB-4ACDB0F59493">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:25:49 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="7CCD9F23-53F3-87E9-0535-89624A8D1903">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:25:58 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DCC8C83-2940-31C1-6966-B61324883873" name="{entity} PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:25:38 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8870902B-46D2-8B95-5394-FBEBE35867C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

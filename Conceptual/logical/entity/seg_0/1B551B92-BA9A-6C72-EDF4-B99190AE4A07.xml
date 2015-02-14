@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B551B92-BA9A-6C72-EDF4-B99190AE4A07" name="SIM_project_emp">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:26:09 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D0E29C00-51BE-5293-54C3-F946578A82AC</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="C60305DD-A3AB-70CB-6662-A3A4D15C32F0">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:27:11 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="0BFABA34-780F-4996-6FBE-D79EF2DA1943">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 19:27:19 UTC</createdTime>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="F292950C-C8C6-7E6B-FE8C-0303AACE6E9D">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-02-13 21:21:09 UTC</createdTime>
+<generatorID>BC4375B0-46C9-4CF6-6CE1-4B304143055C</generatorID>
+<ownerDesignName>Conceptual</ownerDesignName>
+<engineerTo>
+<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
+<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F506BE57-8187-143B-34BF-45B6E7CD047D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>
