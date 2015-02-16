@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="245FCA4C-3B7E-930B-D923-CD5466647591">
-<createdBy>Daniel</createdBy>
-<createdTime>2015-02-13 19:33:41 UTC</createdTime>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="5B8B8F29-6B81-6DFA-746F-44A1FDB0BEEF">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:34:28 UTC</createdTime>
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
 <showLegend>false</showLegend>

@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02DB5A68-2E41-86BA-718A-97D7B2C72B33" name="SIM_Person">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:26:11 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="90C23E19-CC37-99D1-B4EC-66AB1102CBAD">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:26:29 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="BCBE43B5-DA42-3FDB-A5F2-CCA1A67D2369">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:26:41 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="802C3FC1-059F-7275-7AB1-06F432E7BC78">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:26:54 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="96E34B81-D4A1-36C8-5697-3FBA7FF626CB">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:27:02 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="E7FD8E56-0B09-989E-6053-7C9F47CF094A">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:27:12 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="3776888C-ED53-6766-BDAE-79E2D23FA52D">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:27:22 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="1295E8DE-C095-2A6B-792A-238B98A6F5BA">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:27:32 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="CF316EDF-DE20-F2C5-12B4-C4B60CEACD8B">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:27:45 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="D27603F1-6478-82E9-C919-FA9ECE0F63F0">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:27:55 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="emp_id" id="87AF0C1F-313D-4F95-FF6E-6C8691E0EEF3">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:28:02 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="D4AD8165-9A77-FA9B-D2BC-BC43C5D4D226">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:28:15 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="1770B747-C695-A2E4-3B9F-42A9757C9309">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:28:25 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="1C0B798F-6C66-4EA1-A208-397BD5462DB8">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:28:32 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="type" id="3A7D40F7-34E3-D3D8-BACC-2D51ACB8F95C">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:28:55 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="B720E110-EC7A-16F6-D17C-37D9607E9935">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:29:04 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="EF4ED614-0A07-3BB4-FF13-F8643E92FA09">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:29:17 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="rating" id="61E7A24F-69DC-7B1D-8B47-DDCF0343103D">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:29:53 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E37F202-DB4B-ECFA-78BD-854904E3B436" name="{entity} PK">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:26:39 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90C23E19-CC37-99D1-B4EC-66AB1102CBAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

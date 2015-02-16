@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7CC9A3B-3B87-85B5-6F40-CD660590605C" name="SIM_dept">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:31:30 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dept_id" id="C153A58A-588C-DF4D-23A8-7BE16387E2F2">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:31:38 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="E7EB3601-9345-8E94-9E03-79E2803B5540">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:31:49 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="location" id="CBEB66E7-FDA9-87FE-F3AB-578568F9C69A">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:32:00 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99F065E6-4C72-CC76-0D83-CC0D08BF634B" name="{entity} PK">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:31:48 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C153A58A-588C-DF4D-23A8-7BE16387E2F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
