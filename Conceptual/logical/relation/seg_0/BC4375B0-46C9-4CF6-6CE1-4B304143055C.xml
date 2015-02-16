@@ -3,10 +3,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 21:21:09 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
-</engineerTo>
 <sourcePk>3035443A-F95E-BEAE-0D45-B0AB23DE9C07</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

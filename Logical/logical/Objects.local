@@ -4,4 +4,5 @@
    <object objectType="Entity" objectID="C7CC9A3B-3B87-85B5-6F40-CD660590605C" name="SIM_dept" seqName="seg_0"/>
    <object objectType="Entity" objectID="653C9271-33E5-7099-47BF-3D0AB43EC5B2" name="SIM_project" seqName="seg_0"/>
    <object objectType="Relation" objectID="6592E465-3F2D-A7FF-AEEF-A26B1FF52B0C" name="r1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="14FC23F5-819A-A8C6-601B-9A8011805CD4" name="r3" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

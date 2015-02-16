@@ -3,10 +3,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:29:42 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,10 +16,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:29:52 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -32,10 +24,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:30:00 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,10 +35,6 @@
 <createdTime>2015-02-13 21:20:39 UTC</createdTime>
 <generatorID>AD1EFE85-1CB0-2C55-E524-3B0D125744CC</generatorID>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>F506BE57-8187-143B-34BF-45B6E7CD047D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,10 +47,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:29:58 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-<item key="2352F46F-B69F-8A73-4907-1961EB478AD3" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0051EE11-7836-F708-E295-D6CE460C0830</attributeRef>

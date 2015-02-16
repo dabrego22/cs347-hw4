@@ -3,9 +3,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:21:23 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:23:05 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -30,9 +24,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:23:19 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,9 +34,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:23:27 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,9 +43,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:23:35 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -68,9 +53,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:23:47 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,9 +62,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:24:07 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -93,9 +72,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:24:17 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -106,9 +82,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:24:25 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -119,9 +92,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:24:32 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -133,9 +103,6 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-02-13 19:23:17 UTC</createdTime>
 <ownerDesignName>Conceptual</ownerDesignName>
-<engineerTo>
-<item key="32883552-56CE-5A72-BEC0-58246CF159A1" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>477FAD06-DC17-8876-E925-30ADACE51B02</attributeRef>

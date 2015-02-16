@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="8829650C-F8E5-8C19-42B0-119C104E26BA" name="Logical" visible="false"/>
-   <object objectType="sub_view" objectID="FB5AE436-205E-76E3-0DAB-A63894592E6A" name="Logical - SubView_1" visible="true"/>
+   <object objectType="sub_view" objectID="FB5AE436-205E-76E3-0DAB-A63894592E6A" name="Logical" visible="true"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

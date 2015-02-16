@@ -227,6 +227,19 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
+<Attribute name="dept_id1" id="B2A1CBA0-25CC-361D-173E-726FA9015511">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-16 20:44:04 UTC</createdTime>
+<generatorID>14FC23F5-819A-A8C6-601B-9A8011805CD4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<referedAttribute>C153A58A-588C-DF4D-23A8-7BE16387E2F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1E37F202-DB4B-ECFA-78BD-854904E3B436" name="{entity} PK">

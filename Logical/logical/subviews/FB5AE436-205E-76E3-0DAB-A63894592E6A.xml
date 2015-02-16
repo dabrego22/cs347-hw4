@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Logical - SubView_1" id="FB5AE436-205E-76E3-0DAB-A63894592E6A">
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Logical" id="FB5AE436-205E-76E3-0DAB-A63894592E6A">
 <createdBy>dabrego</createdBy>
 <createdTime>2015-02-16 20:25:21 UTC</createdTime>
 <autoRoute>false</autoRoute>
@@ -14,24 +14,33 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="02DB5A68-2E41-86BA-718A-97D7B2C72B33" otype="Entity" vid="18B752A5-A496-47FE-9812-13A1792EB105">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="42" y="45" width="181" height="272"/>
+<bounds x="33" y="47" width="184" height="311"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="653C9271-33E5-7099-47BF-3D0AB43EC5B2" otype="Entity" vid="D435C4AB-E71A-CDCD-5FB5-9526EEA840CD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="103" y="485" width="170" height="110"/>
+<bounds x="99" y="558" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C7CC9A3B-3B87-85B5-6F40-CD660590605C" otype="Entity" vid="AEB6092D-7817-A118-E6C5-3280D8EEAEA6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="370" y="486" width="170" height="110"/>
+<bounds x="374" y="556" width="170" height="110"/>
 </OView>
 </objectViews>
 <connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="14FC23F5-819A-A8C6-601B-9A8011805CD4" otype="Relation" vid_source="AEB6092D-7817-A118-E6C5-3280D8EEAEA6" vid_target="18B752A5-A496-47FE-9812-13A1792EB105">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="398" y="556"/>
+<point x="398" y="334"/>
+<point x="217" y="334"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6592E465-3F2D-A7FF-AEEF-A26B1FF52B0C" otype="Relation" vid_source="AEB6092D-7817-A118-E6C5-3280D8EEAEA6" vid_target="D435C4AB-E71A-CDCD-5FB5-9526EEA840CD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="370" y="540"/>
-<point x="273" y="540"/>
+<point x="374" y="612"/>
+<point x="269" y="612"/>
 </points>
 </Connector>
 </connectors>
