@@ -1,0 +1,59 @@
+drop view sim_proj_emp ;
+drop view sim_manager ;
+drop view sim_person ;
+
+create view sim_proj_emp as
+SELECT PERSON_ID, TYPE, NAME, BIRTH_DATE, TITLE, RATING, SIM_DEPT_DEPT_ID 
+FROM SIM_PERSON
+WHERE TYPE = 'Project Employee' ;
+
+create or replace TRIGGER proj_emp_trigger
+     INSTEAD OF insert ON sim_proj_emp
+     FOR EACH ROW
+BEGIN
+     insert into sim_person(
+        PERSON_ID,
+        TYPE,
+        NAME,
+        BIRTH_DATE,
+        TITLE,
+        RATING,
+        SIM_DEPT_DEPT_ID)
+     VALUES (
+        :new.PERSON_ID,
+        'Project Employee',
+        :new.NAME,
+        :new.BIRTH_DATE,
+        :new.TITLE,
+        :new.RATING,
+        :new.SIM_DEPT_DEPT_ID) ;
+END;
+/
+
+create view sim_manager as
+SELECT PERSON_ID, TYPE, NAME, BIRTH_DATE, TITLE, BONUS, SIM_DEPT_DEPT_ID1
+FROM SIM_PERSON
+WHERE TYPE = 'Manager' ;
+
+create or replace TRIGGER manager_trigger
+     INSTEAD OF insert ON sim_manager
+     FOR EACH ROW
+BEGIN
+     insert into sim_person(
+        PERSON_ID,
+        TYPE,
+        NAME,
+        BIRTH_DATE,
+        TITLE,
+        BONUS,
+        SIM_DEPT_DEPT_ID1)
+     VALUES (
+        :new.PERSON_ID,
+        'Manager',
+        :new.NAME,
+        :new.BIRTH_DATE,
+        'Manager',
+        :new.BONUS,
+        :new.SIM_DEPT_DEPT_ID1);
+END;
+/
