@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r3" directorySegmentName="seg_0" id="14FC23F5-819A-A8C6-601B-9A8011805CD4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r3v1" directorySegmentName="seg_0" id="9C118639-01DC-E6DB-DC49-5CD7AF9F0D01">
 <createdBy>dabrego</createdBy>
-<createdTime>2015-02-16 20:44:04 UTC</createdTime>
+<createdTime>2015-02-17 16:33:46 UTC</createdTime>
 <ownerDesignName>Logical</ownerDesignName>
 <engineerTo>
 <item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
 </engineerTo>
 <sourcePk>99F065E6-4C72-CC76-0D83-CC0D08BF634B</sourcePk>
+<targetPk>1E37F202-DB4B-ECFA-78BD-854904E3B436</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>C7CC9A3B-3B87-85B5-6F40-CD660590605C</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>02DB5A68-2E41-86BA-718A-97D7B2C72B33</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

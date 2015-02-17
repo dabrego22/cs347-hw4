@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7CC9A3B-3B87-85B5-6F40-CD660590605C" name="SIM_dept">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1831AC1-B679-AC55-2D67-874C869775FC" name="SIM_proj_assign">
 <createdBy>dabrego</createdBy>
-<createdTime>2015-02-16 20:31:30 UTC</createdTime>
+<createdTime>2015-02-17 16:34:37 UTC</createdTime>
 <ownerDesignName>Logical</ownerDesignName>
 <engineerTo>
 <item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="dept_id" id="C153A58A-588C-DF4D-23A8-7BE16387E2F2">
+<Attribute name="per_proj" id="951FC9D4-79DB-DC8A-3724-EB582113F94C">
 <createdBy>dabrego</createdBy>
-<createdTime>2015-02-16 20:31:38 UTC</createdTime>
+<createdTime>2015-02-17 16:34:47 UTC</createdTime>
 <ownerDesignName>Logical</ownerDesignName>
 <engineerTo>
 <item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
@@ -26,36 +26,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="name" id="E7EB3601-9345-8E94-9E03-79E2803B5540">
+<Attribute name="person_id" id="9680C109-F067-9B5F-657D-E2DB53161422">
 <createdBy>dabrego</createdBy>
-<createdTime>2015-02-16 20:31:49 UTC</createdTime>
-<ownerDesignName>Logical</ownerDesignName>
-<engineerTo>
-<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-</Attribute>
-<Attribute name="location" id="CBEB66E7-FDA9-87FE-F3AB-578568F9C69A">
-<createdBy>dabrego</createdBy>
-<createdTime>2015-02-16 20:32:00 UTC</createdTime>
-<ownerDesignName>Logical</ownerDesignName>
-<engineerTo>
-<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-</Attribute>
-<Attribute name="person_id" id="94EA7975-1E60-22B7-BD94-85C69AD86DF7">
-<createdBy>dabrego</createdBy>
-<createdTime>2015-02-17 16:33:53 UTC</createdTime>
-<generatorID>9C118639-01DC-E6DB-DC49-5CD7AF9F0D01</generatorID>
+<createdTime>2015-02-17 16:35:12 UTC</createdTime>
+<generatorID>CAF1843C-E966-C066-68C8-1F7A5B87BA7C</generatorID>
 <ownerDesignName>Logical</ownerDesignName>
 <engineerTo>
 <item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
@@ -66,18 +40,32 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
+<Attribute name="project_id" id="BA7C5F3F-D56A-A112-1DF0-443ADC837C33">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-17 16:35:22 UTC</createdTime>
+<generatorID>C41A6C38-5F37-D746-F867-4936F279E6BF</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C731690B-9171-F5F3-F728-4E57FA258AC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="99F065E6-4C72-CC76-0D83-CC0D08BF634B" name="{entity} PK">
+<identifier id="4B4BF0FB-013E-36BC-7F48-629CA616675F" name="{entity} PK">
 <createdBy>dabrego</createdBy>
-<createdTime>2015-02-16 20:31:48 UTC</createdTime>
+<createdTime>2015-02-17 16:34:58 UTC</createdTime>
 <ownerDesignName>Logical</ownerDesignName>
 <engineerTo>
 <item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C153A58A-588C-DF4D-23A8-7BE16387E2F2</attributeRef>
+<attributeRef>951FC9D4-79DB-DC8A-3724-EB582113F94C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

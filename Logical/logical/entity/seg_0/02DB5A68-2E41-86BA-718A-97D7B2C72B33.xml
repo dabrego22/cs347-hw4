@@ -235,6 +235,21 @@
 <engineerTo>
 <item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C153A58A-588C-DF4D-23A8-7BE16387E2F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="7A9ABBD5-6277-183B-0C6D-C783515104C0">
+<createdBy>dabrego</createdBy>
+<createdTime>2015-02-17 16:33:47 UTC</createdTime>
+<generatorID>9C118639-01DC-E6DB-DC49-5CD7AF9F0D01</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="D9F9B870-82AD-A921-0B0F-EE7D24AE9706" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>C153A58A-588C-DF4D-23A8-7BE16387E2F2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
